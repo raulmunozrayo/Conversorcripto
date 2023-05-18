@@ -21,7 +21,7 @@ function submitForm(e){
     e.preventDefault();
     const {moneda, criptomoneda} = objBusqueda;
     if (moneda === '' || criptomoneda === '') {
-        showError('Seleccione ambas monedas...');
+        showError('Seleccione ambas monedas');
         return;
     }
     consultarAPI(moneda, criptomoneda);

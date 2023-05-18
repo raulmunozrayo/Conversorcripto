@@ -14,7 +14,6 @@ header {
 #logo{
     width: 9%; 
     height: 90%;
-    border: 1px solid black;
     margin-left: 4%;
     
 }
@@ -22,11 +21,10 @@ header {
 /* Estilos para la barra de navegación */
 nav {
     margin-top: 0px;
-    border: 2px solid black;
-    width: 60%;
+    width: 70%;
     float: right;
-    height: 90%;
-    margin-right: 8%;
+    height: 100%;
+    margin-right: 4%;
 }
 
 ul {
@@ -34,31 +32,51 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 li {
-    margin-top: 2%;
+    margin-top: 1%;
+    height: auto;
 }
 
 a {
     text-decoration: none;
+    font-size: 20px;
     color: #fffafa;
     font-weight: bold;
-    border: 2px solid black;
 }
 
 a:hover {
-    color: #1e7910;
+    color: #6494b4;
 }
+
+.register{
+    border: 2px solid rgb(25, 122, 219);
+    width: 170%;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #ffffff00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.register:hover{
+    background-color: rgb(80, 105, 151);
+    cursor: pointer;
+}
+
 article{
     font-size: 30px;
     width: 40%;
     float: left;
     margin-left: 6%;
     margin-top: 4%;
-    color: #fff;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 p{
     font-size: 22px;
@@ -70,11 +88,28 @@ p .underline{
     color: rgb(13, 165, 236);
 }
 
+.main-button{
+    width: 40%;
+    height: 50px;
+    background-color: #736d6d00;
+    border: 2px solid rgb(33, 33, 165);
+    border-radius: 5px 5px 5px 5px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+.main-button:hover{
+    background-color: rgba(112, 112, 224, 0.676);
+    cursor: pointer;
+}
+
 .main-section {
     text-align: center;
     margin-right: 5%;
     margin-top: 4.3%;
-    width: 25%;
+    width: 30%;
     height: auto;
     padding: 29px;
     /* box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px; */
@@ -119,7 +154,7 @@ p .underline{
     color: #736d6d;
 }
 input[type="submit"] {
-    margin: 9px auto 0px;
+    margin: 8% auto 8%;
     width: 50%;
     color: cadetblue;
     background-color: #00a478;
@@ -129,7 +164,7 @@ input[type="submit"] {
     font-weight: 700;
     padding: 7px 4px;
     color: #FFF;
-    height: 37px;
+    height: 40px;
     font-family: 'Montserrat', sans-serif;
 }
 input[type="submit"]:hover {
